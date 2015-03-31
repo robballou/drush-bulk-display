@@ -9,3 +9,10 @@ Hide it all!
 Show it all!
 
     drush bulk-display-show full page
+
+## Install
+
+    pushd ~/.drush
+    git clone git@github.com:robballou/drush-bulk-display.git
+    popd
+    drush cc drush
